@@ -1,0 +1,4 @@
+execute at @e[type=armor_stand,name=1,tag=complete] if data block ~ ~ ~ {Items:[{Slot:21b,id:"minecraft:stick",Count:1b}]} run function cwp:forge/bronze/dagger_crafting2
+execute at @e[type=armor_stand,name=3,tag=complete] if data block ~ ~ ~ {Items:[{Slot:21b,id:"minecraft:stick",Count:1b}]} run function cwp:forge/bronze/dagger_crafting2
+execute at @e[type=armor_stand,name=1,tag=complete] if data block ~ ~ ~ {Items:[{Slot:21b,id:"minecraft:stick",Count:1b}]} run tag @e[distance=0] add forging
+execute at @e[type=armor_stand,name=3,tag=complete] if data block ~ ~ ~ {Items:[{Slot:21b,id:"minecraft:stick",Count:1b}]} run tag @e[distance=0] add forging

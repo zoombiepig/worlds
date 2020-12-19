@@ -1,0 +1,896 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:name_tag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+		{
+          "type": "item",
+          "name": "minecraft:iron_ingot",
+		  "weight": 8,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+               }
+            },
+			{
+              "function": "set_nbt",
+              "tag": "{Manganese:3b}"
+            },
+			{
+			  "function": "set_name",
+			  "name": {"text":"Manganese Dust","italic":"false"}
+			}
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:iron_ingot",
+		  "weight": 8,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+               }
+            },
+			{
+              "function": "set_nbt",
+              "tag": "{Nickel:3b}"
+            },
+			{
+			  "function": "set_name",
+			  "name": {"text":"Nickel Dust","italic":"false"}
+			}
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:iron_ingot",
+		  "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+               }
+            },
+			{
+              "function": "set_nbt",
+              "tag": "{Bronze:1b}"
+            },
+			{
+			  "function": "set_name",
+			  "name": {"text":"Bronze Ingot","italic":"false"}
+			}
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4.0,
+                "max": 9.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:redstone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4.0,
+                "max": 9.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:lapis_lazuli"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:coal"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:bread"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:melon_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:pumpkin_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:beetroot_seeds"
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:rail"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:powered_rail"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:detector_rail"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:activator_rail"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 16.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:torch"
+        },
+        {
+          "type": "minecraft:group",
+          "children" : [
+			{
+			  "type": "item",
+			  "name": "minecraft:paper",
+			  "weight": 3,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Recipe:1b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Common Recipe Fragment","italic":"false"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:paper",
+			  "weight": 2,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Recipe:2b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Uncommon Recipe Fragment","italic":"false","color":"yellow"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:paper",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Recipe:3b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Rare Recipe Fragment","italic":"false","color":"aqua"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:paper",
+			  "weight": 0,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Recipe:4b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Epic Recipe Fragment","italic":"false","color":"light_purple"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:paper",
+			  "weight": 0,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Recipe:5b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Legendary Recipe Fragment","italic":"false","color":"gold"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:paper",
+			  "weight": 0,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Recipe:6b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Otherworldly Recipe Fragment","italic":"false","color":"red"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:carrot_on_a_stick",
+			  "weight": 0.3,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Book:1b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Common Recipe Book","italic":"false"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:carrot_on_a_stick",
+			  "weight": 0.2,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Book:2b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Uncommon Recipe Book","italic":"false","color":"yellow"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:carrot_on_a_stick",
+			  "weight": 0.1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Book:3b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Rare Recipe Book","italic":"false","color":"aqua"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:carrot_on_a_stick",
+			  "weight": 0,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Book:4b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Epic Recipe Book","italic":"false","color":"light_purple"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:carrot_on_a_stick",
+			  "weight": 0,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Book:5b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Legendary Recipe Book","italic":"false","color":"gold"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:carrot_on_a_stick",
+			  "weight": 0,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Book:6b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Otherworldly Recipe Book","italic":"false","color":"red"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:paper",
+			  "weight": 2,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Page:1b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Lost Page","italic":"false","color":"yellow"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:book",
+			  "weight": 2,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Tome:1b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Ancient Tome","italic":"false","color":"yellow"}
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:group",
+			  "children": [
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Tome:1b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Damaged Tome","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Series: [Human Era]","color":"white","italic":"false"},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Tome:2b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Damaged Tome","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Series: [Ancient Elf Era]","color":"white","italic":"false"},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Tome:3b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Damaged Tome","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Series: [Merquois]","color":"white","italic":"false"},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Tome:4b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Damaged Tome","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Series: [The End]","color":"white","italic":"false"},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Tome:5b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Damaged Tome","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Series: [Creatures of The Stone]","color":"white","italic":"false"},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Tome:6b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Damaged Tome","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Series: [The Lost Stories]","color":"white","italic":"false"},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Tome:7b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Damaged Tome","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Series: [The Nether]","color":"white","italic":"false"},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:group",
+			  "children": [
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Scroll:1b,LocationX:1b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Location Scroll [X]","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Scroll:1b,LocationY:1b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Location Scroll [Y]","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Scroll:1b,LocationZ:1b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Location Scroll [Z]","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				}
+			  ]
+			}
+		  ]
+		}
+      ]
+    }
+  ]
+}

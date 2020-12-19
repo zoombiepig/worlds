@@ -1,0 +1,2 @@
+execute as @e[tag=TardisConsole] unless entity @e[type=skeleton,tag=Tardis,nbt={ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:2b}}]}] at @s run playsound minecraft:tardis.hum block @a[tag=Welcome] ~ ~ ~ 10
+execute as @e[tag=InFlight] run schedule function cwp:time/tardis/hum 300s

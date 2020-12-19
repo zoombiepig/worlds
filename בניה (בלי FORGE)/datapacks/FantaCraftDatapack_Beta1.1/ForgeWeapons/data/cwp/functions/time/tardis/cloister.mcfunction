@@ -1,0 +1,2 @@
+execute as @e[tag=TardisConsole,tag=Crashed] at @s run playsound minecraft:tardis.cloister ambient @a[tag=Welcome] ~ ~ ~ 10
+execute as @e[tag=TardisConsole,tag=Crashed] run schedule function cwp:time/tardis/cloister 2.5s

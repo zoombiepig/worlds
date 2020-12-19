@@ -1,0 +1,1 @@
+give @s minecraft:skeleton_horse_spawn_egg{display:{Name:"{\"text\":\"Spawn Ogre\",\"italic\":\"false\"}"},EntityTag:{Tags:["SpawnOgre"]}} 1

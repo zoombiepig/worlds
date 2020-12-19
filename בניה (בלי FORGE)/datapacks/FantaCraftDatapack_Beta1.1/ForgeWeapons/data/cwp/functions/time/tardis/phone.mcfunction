@@ -1,0 +1,1 @@
+execute at @e[tag=Phone] run playsound minecraft:tardis.phone block @a ~ ~ ~

@@ -1,0 +1,11 @@
+function cwp:forge/forge_main
+function cwp:crucible/crucible_main
+function cwp:chart/chart_main
+function cwp:hammer
+function cwp:utilities
+function uses:main
+function fgen:ores/ore_main
+function cwp:weapons/weapon_main
+function cwp:time/tardis_main
+function cwp:mobs/mob_main
+function cwp:gen/generic_main

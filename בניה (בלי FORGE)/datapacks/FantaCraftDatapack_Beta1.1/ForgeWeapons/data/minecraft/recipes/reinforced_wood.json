@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "minecraft:planks"
+        },
+        {
+            "tag": "minecraft:logs"
+        },
+        {
+            "tag": "minecraft:planks"
+        },
+        {
+            "tag": "minecraft:planks"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "tag": "minecraft:planks"
+        },
+        {
+            "tag": "minecraft:planks"
+        },
+        {
+            "tag": "minecraft:logs"
+        },
+        {
+            "tag": "minecraft:planks"
+        }
+    ],
+    "result": {
+        "item": "minecraft:bat_spawn_egg",
+        "count": 6
+    }
+}

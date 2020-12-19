@@ -1,0 +1,12 @@
+{
+    "values":
+    [
+        "minecraft:air",
+        "minecraft:cave_air",
+        "minecraft:obsidian",
+        "minecraft:bedrock",
+        "minecraft:water",
+        "minecraft:lava",
+        "minecraft:podzol"
+    ]
+}

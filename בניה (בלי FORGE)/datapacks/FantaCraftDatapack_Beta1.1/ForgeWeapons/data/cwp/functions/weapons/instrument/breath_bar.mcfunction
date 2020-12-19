@@ -1,0 +1,45 @@
+title @a[scores={wind=0},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 20 - 20 ] ========="}
+title @a[scores={wind=1},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 19 - 20 ] ========="}
+title @a[scores={wind=2},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 18 - 20 ] ========="}
+title @a[scores={wind=3},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 17 - 20 ] ========="}
+title @a[scores={wind=4},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 16 - 20 ] ========="}
+title @a[scores={wind=5},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 15 - 20 ] ========="}
+title @a[scores={wind=6},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 14 - 20 ] ========="}
+title @a[scores={wind=7},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 13 - 20 ] ========="}
+title @a[scores={wind=8},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 12 - 20 ] ========="}
+title @a[scores={wind=9},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 11 - 20 ] ========="}
+title @a[scores={wind=10},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 10 - 20 ] ========="}
+title @a[scores={wind=11},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 9 - 20 ] ========="}
+title @a[scores={wind=12},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 8 - 20 ] ========="}
+title @a[scores={wind=13},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 7 - 20 ] ========="}
+title @a[scores={wind=14},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 6 - 20 ] ========="}
+title @a[scores={wind=15},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 5 - 20 ] ========="}
+title @a[scores={wind=16},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 4 - 20 ] ========="}
+title @a[scores={wind=17},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 3 - 20 ] ========="}
+title @a[scores={wind=18},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 2 - 20 ] ========="}
+title @a[scores={wind=19},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 1 - 20 ] ========="}
+title @a[scores={wind=20},nbt={SelectedItem:{tag:{Wind:1b}}}] actionbar {"text":"========= Breath : [ 0 - 20 ] ========="}
+
+title @a[scores={wind=0},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 20 - 20 ] ========="}
+title @a[scores={wind=1},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 19 - 20 ] ========="}
+title @a[scores={wind=2},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 18 - 20 ] ========="}
+title @a[scores={wind=3},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 17 - 20 ] ========="}
+title @a[scores={wind=4},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 16 - 20 ] ========="}
+title @a[scores={wind=5},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 15 - 20 ] ========="}
+title @a[scores={wind=6},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 14 - 20 ] ========="}
+title @a[scores={wind=7},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 13 - 20 ] ========="}
+title @a[scores={wind=8},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 12 - 20 ] ========="}
+title @a[scores={wind=9},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 11 - 20 ] ========="}
+title @a[scores={wind=10},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 10 - 20 ] ========="}
+title @a[scores={wind=11},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 9 - 20 ] ========="}
+title @a[scores={wind=12},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 8 - 20 ] ========="}
+title @a[scores={wind=13},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 7 - 20 ] ========="}
+title @a[scores={wind=14},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 6 - 20 ] ========="}
+title @a[scores={wind=15},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 5 - 20 ] ========="}
+title @a[scores={wind=16},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 4 - 20 ] ========="}
+title @a[scores={wind=17},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 3 - 20 ] ========="}
+title @a[scores={wind=18},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 2 - 20 ] ========="}
+title @a[scores={wind=19},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 1 - 20 ] ========="}
+title @a[scores={wind=20},nbt={SelectedItem:{tag:{Wind:2b}}}] actionbar {"text":"========= Breath : [ 0 - 20 ] ========="}
+
+scoreboard players set @a[scores={wind=20..}] wind 20

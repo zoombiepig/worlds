@@ -1,0 +1,10 @@
+function cwp:crucible/placing
+function cwp:crucible/stopsound
+function cwp:crucible/breaking
+function cwp:crucible/alloys/bronze
+function cwp:crucible/alloys/steel
+function cwp:crucible/alloys/brass
+function cwp:crucible/alloys/stainless
+function cwp:crucible/alloys/infused_brass
+function cwp:crucible/alloys/elven_metal
+function cwp:crucible/alloys/silver

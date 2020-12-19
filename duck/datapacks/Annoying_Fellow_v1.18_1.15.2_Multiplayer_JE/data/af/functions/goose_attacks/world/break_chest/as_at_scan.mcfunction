@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ chest unless block ~ ~-1 ~ #af:transparent run tag @s add af.bc.can_spawn

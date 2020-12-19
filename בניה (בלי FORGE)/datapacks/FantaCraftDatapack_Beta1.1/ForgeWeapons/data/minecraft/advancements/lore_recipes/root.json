@@ -1,0 +1,49 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Lore & Recipes"
+        },
+        "description": {
+            "text": "Lost pages and stories of the world",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:book",
+            "nbt": "{Book:2b}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/dark_prismarine.png"
+    },
+    "criteria": {
+        "lore_collected": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:barrier",
+                        "nbt": "{Stop:1b}",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "recipe_collected": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "lore_collected"
+        ],
+        [
+            "recipe_collected"
+        ]
+    ]
+}

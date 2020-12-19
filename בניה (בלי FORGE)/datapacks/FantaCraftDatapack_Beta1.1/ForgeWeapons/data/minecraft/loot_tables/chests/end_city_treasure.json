@@ -1,0 +1,4614 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2.0,
+        "max": 6.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children" : [
+			{
+			  "type": "item",
+			  "name": "minecraft:paper",
+			  "weight": 0,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Recipe:1b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Common Recipe Fragment","italic":"false"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:paper",
+			  "weight": 2,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Recipe:2b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Uncommon Recipe Fragment","italic":"false","color":"yellow"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:paper",
+			  "weight": 4,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Recipe:3b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Rare Recipe Fragment","italic":"false","color":"aqua"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:paper",
+			  "weight": 3,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Recipe:4b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Epic Recipe Fragment","italic":"false","color":"light_purple"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:paper",
+			  "weight": 2,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Recipe:5b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Legendary Recipe Fragment","italic":"false","color":"gold"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:paper",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Recipe:6b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Otherworldly Recipe Fragment","italic":"false","color":"red"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:carrot_on_a_stick",
+			  "weight": 0,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Book:1b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Common Recipe Book","italic":"false"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:carrot_on_a_stick",
+			  "weight": 0.2,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Book:2b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Uncommon Recipe Book","italic":"false","color":"yellow"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:carrot_on_a_stick",
+			  "weight": 0.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Book:3b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Rare Recipe Book","italic":"false","color":"aqua"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:carrot_on_a_stick",
+			  "weight": 0.4,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Book:4b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Epic Recipe Book","italic":"false","color":"light_purple"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:carrot_on_a_stick",
+			  "weight": 0.3,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Book:5b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Legendary Recipe Book","italic":"false","color":"gold"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:carrot_on_a_stick",
+			  "weight": 0.2,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Book:6b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Otherworldly Recipe Book","italic":"false","color":"red"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:paper",
+			  "weight": 2,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Page:1b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Lost Page","italic":"false","color":"yellow"}
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:book",
+			  "weight": 2,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{Tome:1b}"
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Ancient Tome","italic":"false","color":"yellow"}
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:group",
+			  "children": [
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Tome:1b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Damaged Tome","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Series: [Human Era]","color":"white","italic":"false"},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Tome:2b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Damaged Tome","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Series: [Ancient Elf Era]","color":"white","italic":"false"},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Tome:3b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Damaged Tome","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Series: [Merquois]","color":"white","italic":"false"},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Tome:4b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Damaged Tome","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Series: [The End]","color":"white","italic":"false"},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Tome:5b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Damaged Tome","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Series: [Creatures of The Stone]","color":"white","italic":"false"},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Tome:6b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Damaged Tome","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Series: [The Lost Stories]","color":"white","italic":"false"},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Tome:7b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Damaged Tome","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Series: [The Nether]","color":"white","italic":"false"},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:group",
+			  "children": [
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Scroll:1b,LocationX:1b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Location Scroll [X]","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Scroll:1b,LocationY:1b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Location Scroll [Y]","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:carrot_on_a_stick",
+				  "weight": 2,
+				  "functions": [
+					{
+					  "function": "set_count",
+					  "count": 1
+					},
+					{
+					  "function": "set_nbt",
+					  "tag": "{Scroll:1b,LocationZ:1b}"
+					},
+					{
+					  "function": "set_name",
+					  "name": {"text":"Location Scroll [Z]","italic":"false","color":"yellow"}
+					},
+					{
+					  "function": "set_lore",
+					  "lore": [
+						{"text":""},
+						{"text":"Right-click to identify","color":"gray","italic":"false"}
+					  ]
+					}
+				  ]
+				}
+			  ]
+			}
+		  ]
+		},
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 7.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 7.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 6.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 10.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:beetroot_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:saddle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:diamond_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:diamond_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:diamond_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:diamond_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:diamond_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:diamond_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:diamond_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_shovel"
+        },
+		{
+          "type": "minecraft:group",
+          "children": [
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_sword",
+			  "weight": 3,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:2732,maxUses:2732,realUses:1561s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:568,cost:3s}]},Endric:1b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 12,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.1,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Maesen I","italic":"false","color":"dark_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:trident",
+			  "weight": 3,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:2732,maxUses:2732,realUses:250s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:568,cost:3s}]},Endric:1b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 15,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.4,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Javelin I","italic":"false","color":"dark_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_helmet",
+			  "weight": 3,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:635,maxUses:635,realUses:363s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:164,cost:3s}]},Endric:1b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 6,
+					  "name": "generic.armor",
+					  "slot": "head"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "head"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Helmet I","italic":"false","color":"dark_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_chestplate",
+			  "weight": 3,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:924,maxUses:924,realUses:528s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:254,cost:3s}]},Endric:1b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 13,
+					  "name": "generic.armor",
+					  "slot": "chest"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "chest"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Chestplate I","italic":"false","color":"dark_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_leggings",
+			  "weight": 3,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:866,maxUses:866,realUses:495s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:212,cost:3s}]},Endric:1b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 11,
+					  "name": "generic.armor",
+					  "slot": "legs"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "legs"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Leggings I","italic":"false","color":"dark_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_boots",
+			  "weight": 3,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:751,maxUses:751,realUses:429,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:164,cost:3s}]},Endric:1b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 5,
+					  "name": "generic.armor",
+					  "slot": "feet"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "feet"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Boots I","italic":"false","color":"dark_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			}
+		  ],
+		  "conditions": [
+			{
+			  "condition": "minecraft:entity_scores",
+			  "entity": "this",
+			  "scores": {
+				"worldProgression": 1
+			  }
+			}
+		  ]
+		},
+		{
+          "type": "minecraft:group",
+          "children": [
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_sword",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:2732,maxUses:2732,realUses:1561s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:568,cost:3s}]},Endric:1b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 12,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.1,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Maesen I","italic":"false","color":"dark_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:trident",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:2732,maxUses:2732,realUses:250s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:568,cost:3s}]},Endric:1b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 15,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.4,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Javelin I","italic":"false","color":"dark_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_helmet",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:635,maxUses:635,realUses:363s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:164,cost:3s}]},Endric:1b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 6,
+					  "name": "generic.armor",
+					  "slot": "head"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "head"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Helmet I","italic":"false","color":"dark_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_chestplate",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:924,maxUses:924,realUses:528s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:254,cost:3s}]},Endric:1b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 13,
+					  "name": "generic.armor",
+					  "slot": "chest"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "chest"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Chestplate I","italic":"false","color":"dark_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_leggings",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:866,maxUses:866,realUses:495s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:212,cost:3s}]},Endric:1b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 11,
+					  "name": "generic.armor",
+					  "slot": "legs"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "legs"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Leggings I","italic":"false","color":"dark_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_boots",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:751,maxUses:751,realUses:429s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:164,cost:3s}]},Endric:1b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 5,
+					  "name": "generic.armor",
+					  "slot": "feet"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "feet"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Boots I","italic":"false","color":"dark_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_sword",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:2888,maxUses:2888,realUses:1561s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:599,cost:3s}]},Endric:2b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 13,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.1,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Maesen II","italic":"false","color":"light_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:trident",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:2732,maxUses:2732,realUses:250s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:599,cost:3s}]},Endric:2b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 16.5,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.4,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Javelin II","italic":"false","color":"light_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_helmet",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:672,maxUses:672,realUses:363s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:164,cost:3s}]},Endric:2b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 7,
+					  "name": "generic.armor",
+					  "slot": "head"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "head"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Helmet II","italic":"false","color":"light_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_chestplate",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:977,maxUses:977,realUses:528s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:279,cost:3s}]},Endric:2b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 15,
+					  "name": "generic.armor",
+					  "slot": "chest"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "chest"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Chestplate II","italic":"false","color":"light_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_leggings",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:916,maxUses:916,realUses:495s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:237,cost:3s}]},Endric:2b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 13,
+					  "name": "generic.armor",
+					  "slot": "legs"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "legs"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Leggings II","italic":"false","color":"light_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_boots",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:794,maxUses:794,realUses:429s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:176,cost:3s}]},Endric:2b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 6,
+					  "name": "generic.armor",
+					  "slot": "feet"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "feet"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Boots II","italic":"false","color":"light_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			}
+		  ],
+		  "conditions": [
+			{
+			  "condition": "minecraft:entity_scores",
+			  "entity": "this",
+			  "scores": {
+				"worldProgression": 2
+			  }
+			}
+		  ]
+		},
+		{
+          "type": "minecraft:group",
+          "children": [
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_sword",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:2732,maxUses:2732,realUses:1561s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:568,cost:3s}]},Endric:1b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 12,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.1,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Maesen I","italic":"false","color":"dark_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:trident",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:2732,maxUses:2732,realUses:250s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:568,cost:3s}]},Endric:1b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 15,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.4,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Javelin I","italic":"false","color":"dark_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_helmet",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:635,maxUses:635,realUses:363s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:164,cost:3s}]},Endric:1b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 6,
+					  "name": "generic.armor",
+					  "slot": "head"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "head"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Helmet I","italic":"false","color":"dark_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_chestplate",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:924,maxUses:924,realUses:528s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:254,cost:3s}]},Endric:1b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 13,
+					  "name": "generic.armor",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "chest"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Chestplate I","italic":"false","color":"dark_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_leggings",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:866,maxUses:866,realUses:495s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:212,cost:3s}]},Endric:1b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 11,
+					  "name": "generic.armor",
+					  "slot": "legs"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "legs"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Leggings I","italic":"false","color":"dark_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_boots",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:751,maxUses:751,realUses:429s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:164,cost:3s}]},Endric:1b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 5,
+					  "name": "generic.armor",
+					  "slot": "feet"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "feet"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Boots I","italic":"false","color":"dark_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_sword",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:2888,maxUses:2888,realUses:1561s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:599,cost:3s}]},Endric:2b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 13,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.1,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Maesen II","italic":"false","color":"light_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:trident",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:2732,maxUses:2732,realUses:250s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:599,cost:3s}]},Endric:2b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 16.5,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.4,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Javelin II","italic":"false","color":"light_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_helmet",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:672,maxUses:672,realUses:363s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:164,cost:3s}]},Endric:2b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 7,
+					  "name": "generic.armor",
+					  "slot": "head"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "head"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Helmet II","italic":"false","color":"light_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_chestplate",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:977,maxUses:977,realUses:528s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:279,cost:3s}]},Endric:2b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 14,
+					  "name": "generic.armor",
+					  "slot": "chest"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "chest"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Chestplate II","italic":"false","color":"light_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_leggings",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:916,maxUses:916,realUses:495s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:237,cost:3s}]},Endric:2b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 13,
+					  "name": "generic.armor",
+					  "slot": "legs"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "legs"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Leggings II","italic":"false","color":"light_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_boots",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:794,maxUses:794,realUses:429s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:176,cost:3s}]},Endric:2b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 6,
+					  "name": "generic.armor",
+					  "slot": "feet"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "feet"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Boots II","italic":"false","color":"light_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_sword",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:3122,maxUses:3122,realUses:1561s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:657,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 14,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.1,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Maesen III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_axe",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:3122,maxUses:3122,realUses:1561s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:657,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 18,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.5,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Axe III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:trident",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:3122,maxUses:3122,realUses:250s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:657,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 18,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.4,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Javelin III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_helmet",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:726,maxUses:726,realUses:363s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:189,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 8,
+					  "name": "generic.armor",
+					  "slot": "head"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "head"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Helmet III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_chestplate",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:1056,maxUses:1056,realUses:528s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:306,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 17,
+					  "name": "generic.armor",
+					  "slot": "chest"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "chest"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Chestplate III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_leggings",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:990,maxUses:990,realUses:495s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:268,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 15,
+					  "name": "generic.armor",
+					  "slot": "legs"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "legs"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Leggings III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_boots",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:858,maxUses:858,realUses:429s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:201,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 7,
+					  "name": "generic.armor",
+					  "slot": "feet"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "feet"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Boots III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			}
+		  ],
+		  "conditions": [
+			{
+			  "condition": "minecraft:entity_scores",
+			  "entity": "this",
+			  "scores": {
+				"worldProgression": 3
+			  }
+			}
+		  ]
+		},
+		{
+          "type": "minecraft:group",
+          "children": [
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_sword",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:2888,maxUses:2888,realUses:1561s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:599,cost:3s}]},Endric:2b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 13,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.1,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Maesen II","italic":"false","color":"light_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:trident",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:2732,maxUses:2732,realUses:250s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:599,cost:3s}]},Endric:2b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 16.5,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.4,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Javelin II","italic":"false","color":"light_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_helmet",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:672,maxUses:672,realUses:363s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:164,cost:3s}]},Endric:2b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 7,
+					  "name": "generic.armor",
+					  "slot": "head"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "head"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Helmet II","italic":"false","color":"light_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_chestplate",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:977,maxUses:977,realUses:528s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:279,cost:3s}]},Endric:2b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 14,
+					  "name": "generic.armor",
+					  "slot": "chest"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "chest"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Chestplate II","italic":"false","color":"light_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_leggings",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:916,maxUses:916,realUses:495s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:237,cost:3s}]},Endric:2b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 13,
+					  "name": "generic.armor",
+					  "slot": "legs"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "legs"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Leggings II","italic":"false","color":"light_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_boots",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:794,maxUses:794,realUses:429s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:176,cost:3s}]},Endric:2b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 6,
+					  "name": "generic.armor",
+					  "slot": "feet"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 3,
+					  "name": "generic.armorToughness",
+					  "slot": "feet"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Boots II","italic":"false","color":"light_purple"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_sword",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:3122,maxUses:3122,realUses:1561s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:657,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 14,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.1,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Maesen III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_axe",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:3122,maxUses:3122,realUses:1561s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:657,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 18,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.5,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Axe III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:trident",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:3122,maxUses:3122,realUses:250s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:657,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 18,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.4,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Javelin III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_helmet",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:726,maxUses:726,realUses:363s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:189,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 8,
+					  "name": "generic.armor",
+					  "slot": "head"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "head"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Helmet III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_chestplate",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:1056,maxUses:1056,realUses:528s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:306,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 17,
+					  "name": "generic.armor",
+					  "slot": "chest"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "chest"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Chestplate III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_leggings",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:990,maxUses:990,realUses:495s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:268,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 15,
+					  "name": "generic.armor",
+					  "slot": "legs"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "legs"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Leggings III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_boots",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:858,maxUses:858,realUses:429s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:201,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 7,
+					  "name": "generic.armor",
+					  "slot": "feet"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "feet"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Boots III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_sword",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:3512,maxUses:3512,realUses:1561s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:723,cost:3s}]},Endric:4b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 15,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.1,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Maesen IV","italic":"false","color":"green"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_axe",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:3512,maxUses:3512,realUses:1561s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:723,cost:3s}]},Endric:4b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 20,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.5,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Axe IV","italic":"false","color":"green"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:trident",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:3512,maxUses:3512,realUses:250s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:723,cost:3s}]},Endric:4b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 20,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.4,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Javelin IV","italic":"false","color":"green"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_helmet",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:817,maxUses:817,realUses:363s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:227,cost:3s}]},Endric:4b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 9,
+					  "name": "generic.armor",
+					  "slot": "head"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "head"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Helmet IV","italic":"false","color":"green"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_chestplate",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:188,maxUses:1188,realUses:528s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:384,cost:3s}]},Endric:4b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 19,
+					  "name": "generic.armor",
+					  "slot": "chest"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "chest"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Chestplate IV","italic":"false","color":"green"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_leggings",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:1114,maxUses:1114,realUses:495s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:314,cost:3s}]},Endric:4b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 16,
+					  "name": "generic.armor",
+					  "slot": "legs"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "legs"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Leggings IV","italic":"false","color":"green"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_boots",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:858,maxUses:858,realUses:429s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:201,cost:3s}]},Endric:4b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 9,
+					  "name": "generic.armor",
+					  "slot": "feet"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "feet"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Boots IV","italic":"false","color":"green"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			}
+		  ],
+		  "conditions": [
+			{
+			  "condition": "minecraft:entity_scores",
+			  "entity": "this",
+			  "scores": {
+				"worldProgression": 4
+			  }
+			}
+		  ]
+		},
+		{
+          "type": "minecraft:group",
+          "children": [
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_sword",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:3122,maxUses:3122,realUses:1561s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:657,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 14,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.1,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Maesen III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_axe",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:3122,maxUses:3122,realUses:1561s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:657,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 18,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.5,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Axe III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:trident",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:3122,maxUses:3122,realUses:250s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:657,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 18,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.4,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Javelin III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_helmet",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:726,maxUses:726,realUses:363s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:189,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 8,
+					  "name": "generic.armor",
+					  "slot": "head"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "head"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Helmet III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_chestplate",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:1056,maxUses:1056,realUses:528s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:306,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 17,
+					  "name": "generic.armor",
+					  "slot": "chest"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "chest"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Chestplate III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_leggings",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:990,maxUses:990,realUses:495s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:268,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 15,
+					  "name": "generic.armor",
+					  "slot": "legs"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "legs"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Leggings III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_boots",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:858,maxUses:858,realUses:429s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:201,cost:3s}]},Endric:3b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 7,
+					  "name": "generic.armor",
+					  "slot": "feet"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "feet"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Boots III","italic":"false","color":"red"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_sword",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:3512,maxUses:3512,realUses:1561s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:723,cost:3s}]},Endric:4b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 15,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.1,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Maesen IV","italic":"false","color":"green"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_axe",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:3512,maxUses:3512,realUses:1561s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:723,cost:3s}]},Endric:4b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 20,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.5,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Axe IV","italic":"false","color":"green"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:trident",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:3512,maxUses:3512,realUses:250s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:723,cost:3s}]},Endric:4b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 20,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.4,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Javelin IV","italic":"false","color":"green"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_helmet",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:817,maxUses:817,realUses:363s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:227,cost:3s}]},Endric:4b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 9,
+					  "name": "generic.armor",
+					  "slot": "head"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "head"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Helmet IV","italic":"false","color":"green"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_chestplate",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:1188,maxUses:1188,realUses:528s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:384,cost:3s}]},Endric:4b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 19,
+					  "name": "generic.armor",
+					  "slot": "chest"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "chest"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Chestplate IV","italic":"false","color":"green"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_leggings",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:1114,maxUses:1114,realUses:495s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:314,cost:3s}]},Endric:4b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 16,
+					  "name": "generic.armor",
+					  "slot": "legs"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "legs"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Leggings IV","italic":"false","color":"green"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_boots",
+			  "weight": 1,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:858,maxUses:858,realUses:429s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:201,cost:3s}]},Endric:4b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 9,
+					  "name": "generic.armor",
+					  "slot": "feet"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 4,
+					  "name": "generic.armorToughness",
+					  "slot": "feet"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Boots IV","italic":"false","color":"green"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_sword",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:3903,maxUses:3903,realUses:1561s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:945,cost:3s}]},Endric:5b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 17,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.1,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Maesen V","italic":"false","color":"gold"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_axe",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:3903,maxUses:3903,realUses:1561s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:945,cost:3s}]},Endric:5b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 22,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.5,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Axe V","italic":"false","color":"gold"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:trident",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:3903,maxUses:3903,realUses:250s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:945,cost:3s}]},Endric:5b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.attackDamage",
+					  "operation": "addition",
+					  "amount": 22,
+					  "name": "generic.attackDamage",
+					  "slot": "mainhand"
+					},
+					{
+					  "attribute": "generic.attackSpeed",
+					  "operation": "addition",
+					  "amount": -2.4,
+					  "name": "generic.attackSpeed",
+					  "slot": "mainhand"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Javelin V","italic":"false","color":"gold"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_helmet",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:908,maxUses:908,realUses:363s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:227,cost:3s}]},Endric:5b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 10,
+					  "name": "generic.armor",
+					  "slot": "head"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 5,
+					  "name": "generic.armorToughness",
+					  "slot": "head"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Helmet V","italic":"false","color":"gold"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_chestplate",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:1320,maxUses:1320,realUses:528s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:412,cost:3s}]},Endric:5b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 21,
+					  "name": "generic.armor",
+					  "slot": "chest"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 5,
+					  "name": "generic.armorToughness",
+					  "slot": "chest"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Chestplate V","italic":"false","color":"gold"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_leggings",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:1238,maxUses:1238,realUses:495s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:328,cost:3s}]},Endric:5b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 17,
+					  "name": "generic.armor",
+					  "slot": "legs"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 5,
+					  "name": "generic.armorToughness",
+					  "slot": "legs"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Leggings V","italic":"false","color":"gold"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			},
+			{
+			  "type": "item",
+			  "name": "minecraft:diamond_boots",
+			  "weight": 1.5,
+			  "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				},
+				{
+				  "function": "set_nbt",
+				  "tag": "{display:{Lore:[\"\"]},RepairCost:0,durability:{Uses:1073,maxUses:1073,realUses:429s,Sound:1s,repairItems:[{nbt:{id:\"minecraft:iron_ingot\",Elven:1b},repair:271,cost:3s}]},Endric:5b}"
+				},
+				{
+				  "function": "set_attributes",
+				  "modifiers": [
+					{
+					  "attribute": "generic.armor",
+					  "operation": "addition",
+					  "amount": 10,
+					  "name": "generic.armor",
+					  "slot": "feet"
+					},
+					{
+					  "attribute": "generic.armorToughness",
+					  "operation": "addition",
+					  "amount": 5,
+					  "name": "generic.armorToughness",
+					  "slot": "feet"
+					}
+				  ]
+				},
+				{
+				  "function": "set_name",
+				  "name": {"text":"Endric Boots V","italic":"false","color":"gold"}
+				},
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 30.0,
+					"max": 59.0,
+					"type": "minecraft:uniform"
+				  },
+				  "treasure": true
+				}
+			  ]
+			}
+		  ],
+		  "conditions": [
+			{
+			  "condition": "minecraft:entity_scores",
+			  "entity": "this",
+			  "scores": {
+				"worldProgression": 5
+			  }
+			}
+		  ]
+		}
+      ]
+    }
+  ]
+}

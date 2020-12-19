@@ -1,0 +1,45 @@
+{
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2020-02-06 16:45:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_fire_torch": {
+    "criteria": {
+      "has_soul_soil": "2020-02-06 16:46:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2020-02-06 16:45:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2020-02-06 16:45:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2020-02-06 16:45:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2020-02-06 16:45:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2020-02-06 16:44:38 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2504
+}

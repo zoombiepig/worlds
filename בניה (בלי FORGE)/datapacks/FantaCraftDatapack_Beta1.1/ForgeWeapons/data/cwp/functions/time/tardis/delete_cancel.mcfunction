@@ -1,0 +1,2 @@
+execute if score counter delCheck matches 1 at @e[tag=TardisConsole] run title @a[tag=Welcome,distance=..20] actionbar {"text":"Waypoint Deletion Canceled","color":"red"}
+execute if score counter delCheck matches 1 run scoreboard players set counter delCheck 0

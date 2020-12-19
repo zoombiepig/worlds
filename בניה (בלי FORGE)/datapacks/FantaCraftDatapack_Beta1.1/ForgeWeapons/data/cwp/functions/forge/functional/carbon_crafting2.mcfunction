@@ -1,0 +1,2 @@
+execute at @e[name=2,type=minecraft:armor_stand,tag=complete] if data block ~ ~ ~ {Items:[{Slot:3b,id:"minecraft:coal"}]} run function cwp:forge/functional/carbon
+execute at @e[name=4,type=minecraft:armor_stand,tag=complete] if data block ~ ~ ~ {Items:[{Slot:3b,id:"minecraft:coal"}]} run function cwp:forge/functional/carbon

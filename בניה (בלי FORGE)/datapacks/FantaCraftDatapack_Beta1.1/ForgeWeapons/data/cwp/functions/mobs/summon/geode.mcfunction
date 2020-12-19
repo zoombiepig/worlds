@@ -1,0 +1,3 @@
+summon zombie_villager ~ ~ ~ {VillagerData:{profession:"minecraft:none"},Silent:1b,DeathLootTable:"entities/geode",Health:60f,IsBaby:0b,CanBreakDoors:0b,Tags:["found","cppM","geode"],CustomName:'{"text":"Geode"}',Attributes:[{Name:generic.maxHealth,Base:60},{Name:generic.armor,Base:2},{Name:generic.attackDamage,Base:6}]}
+execute as @e[name=Geode] run team join FantaMobs
+tp @s[type=!player] ~ ~-600 ~

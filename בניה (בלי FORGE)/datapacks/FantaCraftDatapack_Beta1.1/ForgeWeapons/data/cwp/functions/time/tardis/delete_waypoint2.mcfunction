@@ -1,0 +1,6 @@
+execute at @e[tag=DeleteWaypoint] run playsound minecraft:tardis.multiple_button_press block @a ~ ~ ~
+execute as @e[tag=TardisConsole] at @s run scoreboard players set @a[scores={deleteWaypoint=1..},distance=..6] deleteWaypoint 0
+execute if score counter waypoint matches 1 if entity @e[tag=TardisWaypoint1] if score counter delCheck matches 1 at @e[tag=TardisConsole] run title @a[tag=Welcome,distance=..10] actionbar {"text":"Waypoint [1] Successfully Deleted","color":"yellow"}
+execute if score counter waypoint matches 1 if entity @e[tag=TardisWaypoint1] if score counter delCheck matches 1 run scoreboard players set counter delCheck 0
+execute if score counter waypoint matches 1 if entity @e[tag=TardisWaypoint1] if score counter delCheck matches 0 at @e[tag=TardisConsole] run title @a[tag=Welcome,distance=..10] actionbar {"text":"Press Again to Confirm Deletion of Waypoint [1]","color":"red"}
+execute if score counter waypoint matches 1 if entity @e[tag=TardisWaypoint1] if score counter delCheck matches 0 run scoreboard players set counter delCheck 1

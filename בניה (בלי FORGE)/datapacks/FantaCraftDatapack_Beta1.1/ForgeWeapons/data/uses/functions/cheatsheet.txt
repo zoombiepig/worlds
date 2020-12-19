@@ -1,0 +1,55 @@
+Aufbau der NBT-Daten
+
+{display:{Lore:[""]},RepairCost:0,durability:{Uses:Xs,maxUses:Xs,realUses:Xs,Sound:Xs,RepairCost:Xs,repairItems:[{nbt:Z,repair:Xs,cost:Xs}]}}
+
+X = Integer
+Z = NBT-Daten des Reparaturmaterials
+
+Beispiel
+
+/give @s wooden_axe{display:{Lore:[""]},RepairCost:0,durability:{Uses:10s,maxUses:10s,realUses:60s,Sound:1s,repairItems:[{nbt:{id:"minecraft:oak_log"},repair:10s,cost:3s}]}}
+
+Der Command gibt einem eine Holzaxt, die 10 Benutzungen hat und die Sound ID 1 hat.
+Die Axt lässt sich zudem mit einem Eichenholzstamm komplett reparieren (Es werden 10 Benutzungen repariert.)
+und die Reparatur kostet immer 3 Level.
+
+Folgende Angaben sind der Minecraft Gamepedia Internetseite entnommen.
+
+#Wooden / Leather
+ Tools: 60
+ Helmet: 56
+ Chestplate: 81
+ Leggings: 76
+ Boots: 66
+
+#Stone / Chainmail
+ Tools: 132
+ Helmet: 166
+ Chestplate: 241
+ Leggings: 226
+ Boots: 196
+#Golden
+ Tools: 33
+ Helmet: 78
+ Chestplate: 113
+ Leggings: 106
+ Boots: 92
+#Iron
+ Tools: 251
+ Helmet: 166
+ Chestplate: 241
+ Leggings: 226
+ Boots: 196
+#Diamond
+ Tools: 1562
+ Helmet: 364
+ Chestplate: 529
+ Leggings: 496
+ Boots: 430
+#Special
+ Bow: 384
+ Coas: 26
+ Fishingrod: 65
+ Shears: 238
+ Crossbow: 326
+ Turtle Shell: 276

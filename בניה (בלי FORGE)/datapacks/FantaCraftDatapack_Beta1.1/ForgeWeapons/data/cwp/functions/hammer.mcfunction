@@ -1,0 +1,1 @@
+replaceitem entity @a[nbt={SelectedItem:{id:"minecraft:structure_void",Count:1b}}] weapon minecraft:iron_pickaxe{Damage:0,display:{Lore:[""],Name:'{"text":"Hammer","italic":"false"}'},RepairCost:0,durability:{Uses:238s,maxUses:238s,realUses:250s,Sound:1s,repairItems:[{nbt:{id:"minecraft:iron_ingot"},repair:62s,cost:3s}]},Hammer:1b}

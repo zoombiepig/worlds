@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+		"min": 1.0,
+		"max": 2.0
+	  },
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "minecraft:ender_pearl"
+        },
+		{
+		  "type": "minecraft:item",
+		  "weight": 3,
+		  "conditions": [
+			{
+			  "condition": "minecraft:entity_scores",
+			  "entity": "killer",
+			  "scores": {
+				"worldProgression": 1
+			  }
+			}
+		  ],
+		  "functions": [
+			{
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+			{
+			  "function": "minecraft:set_name",
+			  "name": {"text":"▒╛│╣╡╛─ ╡╝╞╡╛ ╡├├╡╛│╡","italic":"false","color":"yellow"}
+			},
+			{
+			  "function": "minecraft:set_nbt",
+			  "tag": "{Elven:1b}"
+			}
+		  ],
+		  "name": "minecraft:prismarine_crystals"
+		}
+	  ]
+    }
+  ]
+}

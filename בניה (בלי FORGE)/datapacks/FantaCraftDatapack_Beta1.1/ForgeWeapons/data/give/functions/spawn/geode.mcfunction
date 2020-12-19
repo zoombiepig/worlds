@@ -1,0 +1,1 @@
+give @s minecraft:pillager_spawn_egg{display:{Name:"{\"text\":\"Spawn Geode\",\"italic\":\"false\"}"},EntityTag:{Tags:["SpawnGeode"]}} 1

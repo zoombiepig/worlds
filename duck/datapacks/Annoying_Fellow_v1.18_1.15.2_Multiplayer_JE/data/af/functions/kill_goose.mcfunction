@@ -1,0 +1,1 @@
+execute as @e[tag=af.goose,limit=1] at @s run tp @s ~ ~-100 ~

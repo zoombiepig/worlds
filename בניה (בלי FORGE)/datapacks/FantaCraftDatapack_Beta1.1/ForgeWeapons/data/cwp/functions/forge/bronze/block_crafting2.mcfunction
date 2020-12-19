@@ -1,0 +1,2 @@
+execute at @e[name=2,type=minecraft:armor_stand,tag=complete] if data block ~ ~ ~ {Items:[{Slot:2b,id:"minecraft:iron_ingot",tag:{Bronze:0b},{Slot:3b,id:"minecraft:iron_ingot",tag:{Bronze:0b}},{Slot:4b,id:"minecraft:iron_ingot",tag:{Bronze:0b}]} run function cwp:forge/bronze/block
+execute at @e[name=4,type=minecraft:armor_stand,tag=complete] if data block ~ ~ ~ {Items:[{Slot:2b,id:"minecraft:iron_ingot",tag:{Bronze:0b},{Slot:3b,id:"minecraft:iron_ingot",tag:{Bronze:0b}},{Slot:4b,id:"minecraft:iron_ingot",tag:{Bronze:0b}]} run function cwp:forge/bronze/block

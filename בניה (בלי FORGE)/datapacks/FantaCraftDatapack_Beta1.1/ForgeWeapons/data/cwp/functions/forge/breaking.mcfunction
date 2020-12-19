@@ -1,0 +1,15 @@
+execute as @e[type=armor_stand,name=4] at @s if block ~ ~ ~ air at @e[name=Forge,tag=complete,distance=..2] run fill ~ ~ ~ ~-1 ~ ~-1 air destroy
+execute as @e[type=armor_stand,name=1] at @s if block ~ ~ ~ air at @e[name=Forge,tag=complete,distance=..4] run summon item ~ ~ ~ {Item:{id:"minecraft:wandering_trader_spawn_egg",Count:1b,tag:{display:{Lore:['{"text":""}','{"text":"Always faces south","color":"gray","italic":"false"}','{"text":"Place in the front-right corner","color":"gray","italic":"false"}','{"text":"2x2 space required","color":"gray","italic":"false"}'],Name:'{"text":"Forge","italic":"false"}'}}}}
+execute as @e[type=armor_stand,name=4] at @s if block ~ ~ ~ air at @e[name=Forge,tag=complete,distance=..2] run kill @e[type=armor_stand,distance=..2,tag=complete]
+
+execute as @e[type=armor_stand,name=3] at @s if block ~ ~ ~ air at @e[name=Forge,tag=complete,distance=..2] run fill ~ ~ ~ ~-1 ~ ~-1 air destroy
+execute as @e[type=armor_stand,name=3] at @s if block ~ ~ ~ air at @e[name=Forge,tag=complete,distance=..2] run summon item ~ ~ ~ {Item:{id:"minecraft:wandering_trader_spawn_egg",Count:1b,tag:{display:{Lore:['{"text":""}','{"text":"Always faces south","color":"gray","italic":"false"}','{"text":"Place in the front-right corner","color":"gray","italic":"false"}','{"text":"2x2 space required","color":"gray","italic":"false"}'],Name:'{"text":"Forge","italic":"false"}'}}}}
+execute as @e[type=armor_stand,name=3] at @s if block ~ ~ ~ air at @e[name=Forge,tag=complete,distance=..2] run kill @e[type=armor_stand,distance=..2,tag=complete]
+
+execute as @e[type=armor_stand,name=2] at @s if block ~ ~ ~ air at @e[name=Forge,tag=complete,distance=..2] run fill ~ ~ ~ ~-1 ~ ~-1 air destroy
+execute as @e[type=armor_stand,name=2] at @s if block ~ ~ ~ air at @e[name=Forge,tag=complete,distance=..2] run summon item ~ ~ ~ {Item:{id:"minecraft:wandering_trader_spawn_egg",Count:1b,tag:{display:{Lore:['{"text":""}','{"text":"Always faces south","color":"gray","italic":"false"}','{"text":"Place in the front-right corner","color":"gray","italic":"false"}','{"text":"2x2 space required","color":"gray","italic":"false"}'],Name:'{"text":"Forge","italic":"false"}'}}}}
+execute as @e[type=armor_stand,name=2] at @s if block ~ ~ ~ air at @e[name=Forge,tag=complete,distance=..2] run kill @e[type=armor_stand,distance=..2,tag=complete]
+
+execute as @e[type=armor_stand,name=1] at @s if block ~ ~ ~ air at @e[name=Forge,tag=complete,distance=..2] run fill ~ ~ ~ ~-1 ~ ~-1 air destroy
+execute as @e[type=armor_stand,name=1] at @s if block ~ ~ ~ air at @e[name=Forge,tag=complete,distance=..2] run summon item ~ ~ ~ {Item:{id:"minecraft:wandering_trader_spawn_egg",Count:1b,tag:{display:{Lore:['{"text":""}','{"text":"Always faces south","color":"gray","italic":"false"}','{"text":"Place in the front-right corner","color":"gray","italic":"false"}','{"text":"2x2 space required","color":"gray","italic":"false"}'],Name:'{"text":"Forge","italic":"false"}'}}}}
+execute as @e[type=armor_stand,name=1] at @s if block ~ ~ ~ air at @e[name=Forge,tag=complete,distance=..2] run kill @e[type=armor_stand,distance=..2,tag=complete]

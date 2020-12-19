@@ -1,0 +1,1 @@
+execute at @e[tag=CoordLever] run playsound minecraft:tardis.throttle block @a ~ ~ ~

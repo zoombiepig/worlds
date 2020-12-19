@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+		{
+		  "type": "minecraft:item",
+		  "functions": [
+			{
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            },
+			{
+			  "function": "minecraft:set_name",
+			  "name": {"text":"▒╛│╣╡╛─ ╡╝╞╡╛ ╡├├╡╛│╡","italic":"false","color":"yellow"}
+			},
+			{
+			  "function": "minecraft:set_nbt",
+			  "tag": "{Elven:1b}"
+			}
+		  ],
+		  "name": "minecraft:prismarine_crystals"
+		}
+      ]
+    }
+  ]
+}

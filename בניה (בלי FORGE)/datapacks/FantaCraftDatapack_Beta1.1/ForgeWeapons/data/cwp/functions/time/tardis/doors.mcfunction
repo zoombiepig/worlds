@@ -1,0 +1,8 @@
+execute as @e[type=skeleton,tag=TardisInterior,nbt={ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:10b}}]}] if entity @e[type=skeleton,tag=Tardis,nbt={ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:1b}}]}] run function cwp:time/tardis/open_interior
+execute as @e[type=skeleton,tag=TardisInterior,nbt={ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:20b}}]}] if entity @e[type=skeleton,tag=Tardis,nbt={ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:2b}}]}] run function cwp:time/tardis/closed_interior
+
+execute as @e[type=skeleton,tag=TardisInterior,nbt={ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:10b}}]}] unless entity @e[type=skeleton,tag=Tardis,nbt={ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:1b}}]}] run scoreboard players set @a tardisDoor 0
+execute as @e[type=skeleton,tag=TardisInterior,nbt={ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:20b}}]}] unless entity @e[type=skeleton,tag=Tardis,nbt={ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:2b}}]}] run scoreboard players set @a tardisDoor 0
+
+execute as @e[type=skeleton,tag=Tardis,nbt={ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:2b}}]}] run function cwp:time/tardis/closed
+execute as @e[type=skeleton,tag=Tardis,nbt={ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:1b}}]}] run function cwp:time/tardis/open

@@ -1,0 +1,74 @@
+#
+# 		Data pack by IJAMinecraft
+# 		@ ijaminecraft.com
+# 		@ youtube.com/user/IJAMinecraft
+#
+
+execute as @s at @s if block ~ ~ ~1 minecraft:glass run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:glass run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:glass_pane run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:glass_pane run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:white_stained_glass run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:white_stained_glass run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:orange_stained_glass run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:orange_stained_glass run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:magenta_stained_glass run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:magenta_stained_glass run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:light_blue_stained_glass run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:light_blue_stained_glass run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:yellow_stained_glass run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:yellow_stained_glass run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:lime_stained_glass run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:lime_stained_glass run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:pink_stained_glass run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:pink_stained_glass run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:gray_stained_glass run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:gray_stained_glass run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:light_gray_stained_glass run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:light_gray_stained_glass run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:cyan_stained_glass run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:cyan_stained_glass run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:purple_stained_glass run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:purple_stained_glass run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:blue_stained_glass run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:blue_stained_glass run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:brown_stained_glass run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:brown_stained_glass run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:green_stained_glass run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:green_stained_glass run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:red_stained_glass run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:red_stained_glass run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:black_stained_glass run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:black_stained_glass run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:white_stained_glass_pane run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:white_stained_glass_pane run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:orange_stained_glass_pane run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:orange_stained_glass_pane run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:magenta_stained_glass_pane run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:magenta_stained_glass_pane run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:light_blue_stained_glass_pane run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:light_blue_stained_glass_pane run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:yellow_stained_glass_pane run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:yellow_stained_glass_pane run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:lime_stained_glass_pane run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:lime_stained_glass_pane run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:pink_stained_glass_pane run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:pink_stained_glass_pane run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:gray_stained_glass_pane run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:gray_stained_glass_pane run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:light_gray_stained_glass_pane run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:light_gray_stained_glass_pane run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:cyan_stained_glass_pane run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:cyan_stained_glass_pane run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:purple_stained_glass_pane run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:purple_stained_glass_pane run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:blue_stained_glass_pane run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:blue_stained_glass_pane run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:brown_stained_glass_pane run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:brown_stained_glass_pane run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:green_stained_glass_pane run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:green_stained_glass_pane run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:red_stained_glass_pane run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:red_stained_glass_pane run setblock ~ ~1 ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~ ~1 minecraft:black_stained_glass_pane run setblock ~ ~ ~1 minecraft:air destroy
+execute as @s at @s if block ~ ~1 ~1 minecraft:black_stained_glass_pane run setblock ~ ~1 ~1 minecraft:air destroy

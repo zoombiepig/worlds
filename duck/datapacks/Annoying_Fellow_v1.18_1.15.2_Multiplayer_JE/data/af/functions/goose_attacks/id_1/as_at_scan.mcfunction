@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ #af:transparent unless block ~ ~-1 ~ #af:transparent run tag @s add af.can_spawn

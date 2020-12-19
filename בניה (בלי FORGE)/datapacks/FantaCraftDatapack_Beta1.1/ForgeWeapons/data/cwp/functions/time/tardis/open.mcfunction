@@ -1,0 +1,9 @@
+execute as @a[scores={tardisDoor=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{Tardis:1b}}}] at @s run data merge entity @e[type=skeleton,tag=Tardis,limit=1,distance=..6,nbt={ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:1b}}]}] {ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:2b}}]}
+execute as @a[scores={tardisDoor=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{Tardis:1b}}}] at @e[type=skeleton,tag=Tardis] run playsound minecraft:tardis.door_open block @a ~ ~ ~
+execute as @e[type=skeleton,tag=Tardis,nbt={ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:2b}}]}] at @s run summon armor_stand ^ ^ ^0.8 {NoAI:1b,NoGravity:1b,Tags:["TardisDoor","Tardis"],Invisible:1b}
+
+execute as @e[type=skeleton,tag=Tardis,nbt={ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:2b}}]}] at @e[type=skeleton,tag=TardisInterior] run data merge entity @e[type=skeleton,tag=TardisInterior,limit=1,distance=..6,nbt={ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:10b}}]}] {ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:20b}}]}
+execute as @e[type=skeleton,tag=Tardis,nbt={ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:2b}}]}] at @e[type=skeleton,tag=TardisInteriorDoor] run playsound minecraft:tardis.door_open block @a ~ ~ ~
+execute as @e[type=skeleton,tag=TardisInterior,nbt={ArmorItems:[{},{},{},{id:"minecraft:cod",Count:1b,tag:{Tardis:20b}}]}] at @s run summon armor_stand ^ ^ ^0.5 {NoAI:1b,NoGravity:1b,Tags:["TardisDoorInside","TardisInterior"],Invisible:1b}
+
+execute as @e[type=villager,tag=Tardis] at @s run scoreboard players set @a[distance=..6,scores={tardisDoor=1..}] tardisDoor 0

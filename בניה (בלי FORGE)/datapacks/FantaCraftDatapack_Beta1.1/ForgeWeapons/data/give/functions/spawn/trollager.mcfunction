@@ -1,0 +1,1 @@
+give @s minecraft:zombie_villager_spawn_egg{display:{Name:"{\"text\":\"Spawn Trollager\",\"italic\":\"false\"}"},EntityTag:{Tags:["SpawnTrollager"]}} 1

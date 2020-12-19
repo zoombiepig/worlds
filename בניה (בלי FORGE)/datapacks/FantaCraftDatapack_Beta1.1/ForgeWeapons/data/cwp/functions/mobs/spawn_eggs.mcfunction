@@ -1,0 +1,10 @@
+execute as @e[tag=SpawnGeode] run execute at @s run function cwp:mobs/summon/geode
+execute as @e[tag=SpawnTrollager] run execute at @s run function cwp:mobs/summon/trollager
+execute as @e[tag=SpawnOgre] run execute at @s run function cwp:mobs/summon/ogre
+execute as @e[tag=SpawnGoblin] run execute at @s run function cwp:mobs/summon/goblin
+execute as @e[tag=SpawnLeviathan] run execute at @s run function cwp:mobs/summon/leviathan
+execute as @e[tag=SpawnSeaHorse] run execute at @s run function cwp:mobs/summon/sea_horse
+execute as @e[tag=SpawnEndric] run execute at @s run function cwp:mobs/summon/endric
+execute as @e[tag=SpawnEndGolem] run execute at @s run function cwp:mobs/summon/ender_golem
+execute as @e[tag=SpawnWaterGolem] run execute at @s run function cwp:mobs/summon/water_golem
+execute as @e[tag=SpawnMagmaGolem] run execute at @s run function cwp:mobs/summon/magma_golem
